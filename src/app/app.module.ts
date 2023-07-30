@@ -7,13 +7,17 @@ import { MenuComponent } from './menu/menu.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { RegistroComponent } from './registro/registro.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactoComponent } from './contacto/contacto.component';
+import { EliminarComponent } from './eliminar/eliminar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     InicioComponent,
-    RegistroComponent
+    RegistroComponent,
+    ContactoComponent,
+    EliminarComponent
   ],
   imports: [
     BrowserModule,

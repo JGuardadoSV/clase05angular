@@ -16,7 +16,8 @@
             <p class="card-text">
               {{ contacto.email }} | {{ contacto.telefono }}
             </p>
-            <a href="#" class="btn btn-primary">Botón de Acción</a>
+            <a routerLink="/contacto/{{ contacto._id }}" class="btn btn-primary">Ver informacion</a>
+            <a routerLink="/eliminar/{{ contacto._id }}" class="btn btn-danger">Eliminar</a>
           </div>
         </div>
       </div>
